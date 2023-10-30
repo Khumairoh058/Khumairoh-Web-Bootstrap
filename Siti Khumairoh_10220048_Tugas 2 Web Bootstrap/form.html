@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website ipusnas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a><img width="70" height="70" src="https://ipusnas.id/images/logo.png" class="attachment-thumbnail size-thumbnail wp-image-200 bg-warning;" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark text-bold" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="Sekilas.html">Sekilas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="tentangipusnas.html">Tentang Ipusnas</a>
+          </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="bantuan.html" role="button" data-bs-toggle="dropdown">Bantuan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="general.html">General</a></li>
+              <li><a class="dropdown-item" href="gettingstarted.html">Getting Started</a></li>
+              <li><a class="dropdown-item" href="Compatibility.html">Compatibility</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="carapenggunaan.html">Cara penggunaan</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="Kontak.html">Kontak</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="form.html">Form</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <h2>Formulir Pendaftaran Anggota</h2>
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col">
+          <label for="email">No.Identitas</label>
+          <input type="text" class="form-control" id="KTP" placeholder="KTP/NIK" name="email">
+        </div>
+         <div class="col mt-4">
+          <input type="password" class="form-control" id="nomor" placeholder="Masukkan nomor identitas" name="pswd">
+        </div>
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email">Nama Lengkap</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukan nama lengkap anda" name="email">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email">Alamat</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukan alamat anda" name="email">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email">Tempat/Tanggal Lahir</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukan tanggal lahir anda" name="email">
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="email">Nomor HP</label>
+          <input type="text" class="form-control" id="KTP" placeholder="" name="email">
+        </div>
+         <div class="col">
+            <label for="pswd">Nama Institusi</label>
+          <input type="password" class="form-control" id="nomor" placeholder="" name="pswd">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="email">Nomor Telepon Rumah</label>
+          <input type="text" class="form-control" id="KTP" placeholder="" name="email">
+        </div>
+         <div class="col">
+            <label for="pswd">Nama Institusi</label>
+          <input type="password" class="form-control" id="nomor" placeholder="" name="pswd">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="sel1" class="form-label">Jenis Kelamin</label>
+          <select class="form-select" id="sel1" name="sellist1">
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+            <option>lainnya</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="sel1" class="form-label">Pekerjaan</label>
+          <select class="form-select" id="sel1" name="sellist1">
+            <option>BUMN</option>
+            <option>Pegawai Negeri</option>
+            <option>Peneliti</option>
+            <option>TNI/POLRI</option>
+            <option>Pegawai Swasta</option>
+            <option>Dosen</option>
+            <option>Pensiunan</option>
+            <option>Wiraswasta</option>
+            <option>Guru</option>
+            <option>Pelajar</option>
+            <option>Mahasiswa</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="sel1" class="form-label">Status Perkawinan</label>
+          <select class="form-select" id="sel1" name="sellist1">
+            <option>Belum Menikah</option>
+            <option>Menikah</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button class="btn btn-outline-light rounded-pill mt-3 px-5 fw-bold bg-warning">SIGN IN</button>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></script>
+</body>
+</html>
